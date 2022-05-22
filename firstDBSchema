@@ -1,0 +1,23 @@
+feedPost
+	userID
+	date
+	name of plant/vegetable
+	comment
+	rough location
+	postID (foreign key within comments db)
+tradePost
+	link to feedPost (using postID?)
+	quantity
+	price (per KG or for all)
+	comments
+user
+	username
+	password
+	userID
+	friends (maybe its own table)
+
+Commands
+cd Documents
+cd WeGrow
+pipenv shell
+python manage.py runserver
